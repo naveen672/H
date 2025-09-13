@@ -67,6 +67,18 @@ const Colleges = () => {
       description: 'A distinguished high school providing comprehensive secondary education with emphasis on academic excellence and community service in the rural area of Thayuru.',
       mapLink: 'https://maps.app.goo.gl/XsCEw6uU9XFpxNBY6',
     },
+    {
+      id: 6,
+      name: 'T S Subbana Smaraka High School, Chamundi Hill',
+      type: 'High School',
+      established: '1998',
+      location: 'Chamundi Hill, Mysuru',
+      students: '380',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      description: 'A memorial high school located on the scenic Chamundi Hill, providing quality secondary education with a focus on preserving cultural heritage and academic excellence in a serene environment.',
+      mapLink: 'https://maps.app.goo.gl/zQSEdJuo5EtbX1Cp6',
+    },
   ];
 
   return (
