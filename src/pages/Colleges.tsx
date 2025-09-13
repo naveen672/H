@@ -39,7 +39,7 @@ const Colleges = () => {
       location: 'Kagalvadi, Mysuru',
       students: '500',
       image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
-      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      images: ['/IMG-20250910-WA0154.jpg', '/IMG-20250910-WA0140.jpg'],
       description: 'A dedicated high school providing quality secondary education with focus on holistic development and community engagement in Kagalvadi.',
       mapLink: 'https://maps.app.goo.gl/yhmUrvxxMnyUoEXy8', // You can provide the actual map link
     },
@@ -207,6 +207,7 @@ const Colleges = () => {
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link 
                     to={college.id === 1 ? "/school-detail" : college.id === 2 ? "/kyathanahalli-detail" : college.id === 7 ? "/agara-mamballi-detail" : "/kyathanahalli-detail"}
+                    to={college.id === 1 ? "/school-detail" : college.id === 2 ? "/kyathanahalli-detail" : college.id === 3 ? "/kagalvadi-detail" : college.id === 7 ? "/agara-mamballi-detail" : "/kyathanahalli-detail"}
                     className="flex-1 bg-blue-800 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2 font-semibold"
                   >
                     <span>Learn More</span>
