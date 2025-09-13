@@ -11,7 +11,7 @@ const Colleges = () => {
       location: 'Vidyaranyapuram, Mysuru',
       students: '850',
       image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
-      images: ['/school-front.png', '/school-building.png'],
+      images: ['/image.png', '/image copy.png'],
       description: 'Premier high school providing quality secondary education with strong foundation in academics and character development.',
       specialties: ['Secondary Education', 'Science Stream', 'Commerce Stream', 'Arts Stream'],
       accreditation: 'State Board Affiliated, CBSE Recognition',
