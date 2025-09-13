@@ -108,17 +108,6 @@ const Colleges = () => {
                   {college.description}
                 </p>
                 
-                <div className="mb-8">
-                  <h4 className="font-semibold text-gray-700 mb-3">Academic Streams</h4>
-                  <div className="grid grid-cols-2 gap-2">
-                    {college.specialties.map((specialty, index) => (
-                      <span key={index} className="bg-blue-50 text-blue-700 px-3 py-2 rounded-lg text-sm font-medium">
-                        {specialty}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link 
                     to={college.id === 1 ? "/school-detail" : "/kyathanahalli-detail"}
