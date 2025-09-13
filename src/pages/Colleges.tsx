@@ -41,7 +41,7 @@ const Colleges = () => {
       image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
       images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
       description: 'A dedicated high school providing quality secondary education with focus on holistic development and community engagement in Kagalvadi.',
-      mapLink: 'https://maps.app.goo.gl/example', // You can provide the actual map link
+      mapLink: 'https://maps.app.goo.gl/yhmUrvxxMnyUoEXy8', // You can provide the actual map link
     },
   ];
 
