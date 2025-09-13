@@ -123,6 +123,19 @@ const Colleges = () => {
       specialties: ['Diploma Engineering', 'Technical Skills', 'Industrial Training', 'Vocational Courses'],
       accreditation: 'AICTE Approved, State Board Affiliated',
     },
+    {
+      id: 11,
+      name: 'T S Subbanna Sarvajanika Proudha Shaley',
+      type: 'High School',
+      established: '1975',
+      location: 'Vidyaranyapuram, Mysuru',
+      students: '850',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      description: 'Premier high school providing quality secondary education with strong foundation in academics and character development.',
+      specialties: ['Secondary Education', 'Science Stream', 'Commerce Stream', 'Arts Stream'],
+      accreditation: 'State Board Affiliated, CBSE Recognition',
+      mapLink: 'https://maps.app.goo.gl/mjAx1sLth6j79ySB9',
+    },
   ];
 
   return (
@@ -135,7 +148,7 @@ const Colleges = () => {
               Our Colleges
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Discover excellence across our network of 10 premier educational institutions, 
+              Discover excellence across our network of 11 premier educational institutions, 
               each dedicated to providing world-class education and fostering innovation.
             </p>
           </div>
@@ -209,6 +222,18 @@ const Colleges = () => {
                     <span>Learn More</span>
                     <ExternalLink className="h-4 w-4" />
                   </button>
+                  
+                  {college.mapLink && (
+                    <a 
+                      href={college.mapLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full mt-2 bg-amber-500 text-blue-900 py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-200 flex items-center justify-center space-x-2"
+                    >
+                      <span>View Location</span>
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
