@@ -51,7 +51,7 @@ const Colleges = () => {
       location: 'Talakadu, Mysuru',
       students: '400',
       image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
-      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      images: ['/IMG_20250912_203057.jpg', '/IMG_20250912_203028.jpg'],
       description: 'A dedicated girls high school providing quality secondary education with special focus on empowering young women through comprehensive academic programs and character development in Talakadu.',
       mapLink: 'https://maps.app.goo.gl/D7LxgbZKQjaPTYL59',
     },
