@@ -42,42 +42,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* History Section */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-6">
-                Our Legacy
-              </h2>
-              <div className="prose prose-lg text-gray-600">
-                <p className="mb-4">
-                  Founded in 1975 by the visionary philanthropist T S Subbanna, our trust 
-                  began with a simple yet powerful mission: to democratize quality education 
-                  and make it accessible to students from all walks of life.
-                </p>
-                <p className="mb-4">
-                  What started with a vision for quality education has now grown into a 
-                  network of educational institutions dedicated to serving students from 
-                  all backgrounds, particularly focusing on rural and underprivileged communities.
-                </p>
-                <p>
-                  Today, we continue to uphold T S Subbanna's legacy by providing quality 
-                  secondary education and supporting students through hostel facilities and 
-                  various educational initiatives.
-                </p>
-              </div>
-            </div>
-            <div>
-              <img 
-                src="https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-                alt="Historical campus building"
-                className="w-full h-80 object-cover rounded-xl shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Values Section */}
       <section className="py-20 bg-gray-50">
