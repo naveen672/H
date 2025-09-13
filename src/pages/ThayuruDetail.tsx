@@ -265,7 +265,7 @@ const ThayuruDetail = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                src="/IMG-20250825-WA0065.jpg"
                 alt="School achievements"
                 className="w-full h-80 object-cover rounded-xl shadow-lg"
               />
