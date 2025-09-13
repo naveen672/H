@@ -6,7 +6,7 @@ const Colleges = () => {
   const colleges = [
     {
       id: 1,
-      name: 'T S Subbanna Sarvajanika Proudha Shaley',
+      name: 'T S Subbanna Sarvajanika Proudha Shaley Vidyaranyapuram',
       type: 'High School',
       established: '1975',
       location: 'Vidyaranyapuram, Mysuru',
