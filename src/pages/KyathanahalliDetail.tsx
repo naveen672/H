@@ -316,3 +316,5 @@ const KyathanahalliDetail = () => {
 };
 
 export default KyathanahalliDetail;
+
+export default KyathanahalliDetail
