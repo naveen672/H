@@ -2,8 +2,8 @@ import React from 'react';
 import { Phone, MapPin, Eye, Code } from 'lucide-react';
 
 const Footer = () => {
-  // Simple visitor count (in a real app, this would come from analytics or a database)
-  const visitorCount = 12547;
+  // Simple visitor count starting from 0 (in a real app, this would come from analytics or a database)
+  const visitorCount = 0;
 
   return (
     <footer className="bg-gray-900 text-white">
