@@ -296,13 +296,14 @@ const Home = () => {
             Ready to Join Our Academic Community?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Discover exceptional educational opportunities across our network of institutions
+            Discover quality secondary education opportunities across our network of 10 schools, 
+            with hostel facilities available for eligible students from classes V through X
           </p>
           <Link 
             to="/colleges"
             className="bg-amber-500 text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-amber-400 transition-colors duration-200 inline-flex items-center space-x-2"
           >
-            <span>Explore Programs</span>
+            <span>Explore Our Schools</span>
             <ArrowRight className="h-5 w-5" />
           </Link>
         </div>
