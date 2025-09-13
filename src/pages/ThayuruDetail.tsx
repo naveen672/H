@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ThayuruDetail = () => {
   const schoolImages = [
     {
-      src: '//IMG-20250825-WA0081.jpg',
+      src: '/IMG-20250825-WA0081.jpg',
       alt: 'T S Subbanna Sarvajanika High School Thayuru - Campus View',
       caption: 'School campus and facilities'
     },
