@@ -55,6 +55,18 @@ const Colleges = () => {
       description: 'A dedicated girls high school providing quality secondary education with special focus on empowering young women through comprehensive academic programs and character development in Talakadu.',
       mapLink: 'https://maps.app.goo.gl/D7LxgbZKQjaPTYL59',
     },
+    {
+      id: 5,
+      name: 'T S Subbanna Sarvajanika High School, Thayuru',
+      type: 'High School',
+      established: '1995',
+      location: 'Thayuru, Mysuru',
+      students: '450',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      description: 'A distinguished high school providing comprehensive secondary education with emphasis on academic excellence and community service in the rural area of Thayuru.',
+      mapLink: 'https://maps.app.goo.gl/XsCEw6uU9XFpxNBY6',
+    },
   ];
 
   return (
