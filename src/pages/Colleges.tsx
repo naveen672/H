@@ -99,7 +99,7 @@ const Colleges = () => {
       location: 'Hura, Mysuru',
       students: '280',
       image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
-      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      images: ['/IMG-20250909-WA0082.jpg','/IMG-20250909-WA0046.jpg'],
       description: 'A memorial high school in Hura, dedicated to providing comprehensive secondary education and fostering community development through quality academic programs.',
       mapLink: '#', // You can provide the actual map link
     },
