@@ -239,24 +239,7 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-12 sm:py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-6 sm:mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-blue-800 mb-4">Visit Our Campus</h2>
-            <p className="text-lg sm:text-xl text-gray-600">
-              Located in the heart of Bangalore with easy access to public transportation
-            </p>
-          </div>
-          <div className="bg-gray-300 h-64 sm:h-80 lg:h-96 rounded-xl flex items-center justify-center">
-            <div className="text-center text-gray-600">
-              <MapPin className="h-8 w-8 sm:h-12 sm:w-12 mx-auto mb-3 sm:mb-4" />
-              <p className="text-base sm:text-lg">Interactive Map</p>
-              <p className="text-xs sm:text-sm">Campus location and directions</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };
