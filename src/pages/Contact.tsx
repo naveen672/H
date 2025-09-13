@@ -36,20 +36,7 @@ const Contact = () => {
   };
 
   const offices = [
-    {
-      title: 'Main Administrative Office',
-      address: 'T S Subbanna Education Trust Building\nRajajinagar, Bangalore - 560010',
-      phone: '+91 80 2334 5678',
-      email: 'admin@tssubbanna.edu.in',
-      hours: 'Mon-Fri: 9:00 AM - 6:00 PM\nSat: 9:00 AM - 2:00 PM',
-    },
-    {
-      title: 'Admissions Office',
-      address: 'Admission Centre\nMalleswaram, Bangalore - 560003',
-      phone: '+91 80 2334 5679',
-      email: 'admissions@tssubbanna.edu.in',
-      hours: 'Mon-Sat: 9:00 AM - 5:00 PM\nSun: 10:00 AM - 2:00 PM',
-    },
+   
     {
       title: 'Regional Office - Mysore',
       address: 'Regional Centre\nSaraswathipuram, Mysore - 570009',
