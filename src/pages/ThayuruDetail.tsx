@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom';
 const ThayuruDetail = () => {
   const schoolImages = [
     {
-      src: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      src: '//IMG-20250825-WA0081.jpg',
       alt: 'T S Subbanna Sarvajanika High School Thayuru - Campus View',
       caption: 'School campus and facilities'
     },
     {
-      src: 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      src: '/IMG-20250825-WA0081.jpg',
       alt: 'T S Subbanna Sarvajanika High School Thayuru - Building View',
       caption: 'Main school building and entrance'
     },
     {
-      src: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      src: '/IMG-20250825-WA0085.jpg',
       alt: 'Students in classroom',
       caption: 'Students engaged in learning activities'
     },
     {
-      src: 'https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      src: '/IMG-20250825-WA0065.jpg',
       alt: 'School activities',
       caption: 'Educational programs and student activities'
     }
