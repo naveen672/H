@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   const stats = [
-    { label: 'Educational Institutions', value: '10+', icon: BookOpen },
-    { label: 'Students Enrolled', value: '25,000+', icon: Users },
+    { label: 'Educational Institution', value: '1', icon: BookOpen },
+    { label: 'Students Enrolled', value: '850+', icon: Users },
     { label: 'Years of Excellence', value: '50+', icon: Award },
-    { label: 'Academic Programs', value: '100+', icon: Target },
+    { label: 'Academic Streams', value: '3', icon: Target },
   ];
 
   const leadership = [
