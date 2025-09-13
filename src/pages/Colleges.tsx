@@ -87,7 +87,7 @@ const Colleges = () => {
       location: 'Agara Mamballi, Mysuru',
       students: '320',
       image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
-      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      images: ['/IMG_20250912_202355.jpg', '/IMG_20250912_202250.jpg'],
       description: 'A memorial high school serving the Agara Mamballi community, providing quality secondary education with emphasis on rural development and academic excellence.',
       mapLink: '#', // You can provide the actual map link
     },
