@@ -29,7 +29,7 @@ const Colleges = () => {
       images: ['/IMG-20250910-WA0057.jpg', '/IMG-20250910-WA0058.jpg'],
       description: 'A distinguished high school providing comprehensive secondary education with emphasis on academic excellence and character development in Kyathanahalli.',
       specialties: ['Secondary Education', 'Science Stream', 'Commerce Stream', 'Arts Stream'],
-      mapLink: '#',
+      mapLink: 'https://maps.app.goo.gl/gNP4tMFW87VVdZYr6',
     },
   ];
 
