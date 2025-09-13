@@ -20,7 +20,7 @@ const KagalvadiDetail = () => {
       caption: 'Students engaged in learning activities'
     },
     {
-      src: 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      src: '/IMG-20250910-WA0146.jpg',
       alt: 'School activities',
       caption: 'Educational programs and student activities'
     }
