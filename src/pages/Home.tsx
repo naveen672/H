@@ -4,30 +4,30 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   const stats = [
-    { label: 'Educational Institution', value: '1', icon: BookOpen },
-    { label: 'Students Enrolled', value: '850+', icon: Users },
-    { label: 'Years of Excellence', value: '50+', icon: Award },
-    { label: 'Academic Streams', value: '3', icon: Target },
+    { label: 'Schools Under Trust', value: '10', icon: BookOpen },
+    { label: 'Students Enrolled', value: '2,500+', icon: Users },
+    { label: 'Years of Excellence', value: '69+', icon: Award },
+    { label: 'Hostel Facilities', value: '2', icon: Target },
   ];
 
   const leadership = [
     {
-      name: 'Dr. Rajesh Kumar',
-      position: 'Chairman, Board of Trustees',
+      name: 'C. S. Niranjan Kumar',
+      position: 'President (MLA, Gundlupet)',
       image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
-      bio: 'Leading educational reform and strategic vision for the trust.',
+      bio: 'Leading the trust with political experience and educational vision.',
     },
     {
-      name: 'Prof. Anitha Sharma',
-      position: 'Executive Director',
+      name: 'D. Nagunayak',
+      position: 'Secretary',
       image: 'https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
-      bio: 'Overseeing academic excellence across all institutions.',
+      bio: 'Managing administrative affairs and trust operations.',
     },
     {
-      name: 'Dr. Suresh Nair',
-      position: 'Secretary & Treasurer',
+      name: 'H. M. Vasanthamma',
+      position: 'Trustee',
       image: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
-      bio: 'Managing financial operations and administrative affairs.',
+      bio: 'Contributing to educational policy and community development.',
     },
   ];
 
