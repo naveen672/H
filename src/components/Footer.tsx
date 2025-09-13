@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Phone, MapPin, Eye, Code } from 'lucide-react';
 
 const Footer = () => {
-  const visitorCount = 20;
+  const [visitorCount, setVisitorCount] = useState(0);
+
+  useEffect(() => {
+    // Get current count from localStorage or start with 0
+    const currentCount = parseInt(localStorage.getItem('visitorCount') || '0', 10);
+    
+    // Increment by 1
+    const newCount = currentCount + 1;
+    
+    // Update localStorage
+    localStorage.setItem('visitorCount', newCount.toString());
+    
+    // Update state
+    setVisitorCount(newCount);
+  }, []);
 
   return (
     <footer className="bg-gray-900 text-white">
