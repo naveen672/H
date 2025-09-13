@@ -111,7 +111,7 @@ const Colleges = () => {
       location: 'Purigali, Mysuru',
       students: '350',
       image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
-      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      images: ['p2.jpg','p.jpg'],
       description: 'A memorial high school in Purigali, committed to delivering quality secondary education with focus on holistic development and community engagement.',
       mapLink: '#', // You can provide the actual map link
     },
