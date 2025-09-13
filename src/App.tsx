@@ -10,6 +10,7 @@ import SchoolDetail from './pages/SchoolDetail';
 import KyathanahalliDetail from './pages/KyathanahalliDetail';
 import AgaraMamballiDetail from './pages/AgaraMamballiDetail';
 import KagalvadiDetail from './pages/KagalvadiDetail';
+import TalakaduDetail from './pages/TalakaduDetail';
 import Contact from './pages/Contact';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
             <Route path="/kyathanahalli-detail" element={<KyathanahalliDetail />} />
             <Route path="/agara-mamballi-detail" element={<AgaraMamballiDetail />} />
             <Route path="/kagalvadi-detail" element={<KagalvadiDetail />} />
+            <Route path="/talakadu-detail" element={<TalakaduDetail />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

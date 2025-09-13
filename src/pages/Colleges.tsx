@@ -207,7 +207,7 @@ const Colleges = () => {
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link 
                     to={college.id === 1 ? "/school-detail" : college.id === 2 ? "/kyathanahalli-detail" : college.id === 7 ? "/agara-mamballi-detail" : "/kyathanahalli-detail"}
-                    to={college.id === 1 ? "/school-detail" : college.id === 2 ? "/kyathanahalli-detail" : college.id === 3 ? "/kagalvadi-detail" : college.id === 7 ? "/agara-mamballi-detail" : "/kyathanahalli-detail"}
+                    to={college.id === 1 ? "/school-detail" : college.id === 2 ? "/kyathanahalli-detail" : college.id === 3 ? "/kagalvadi-detail" : college.id === 4 ? "/talakadu-detail" : college.id === 7 ? "/agara-mamballi-detail" : "/kyathanahalli-detail"}
                     className="flex-1 bg-blue-800 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2 font-semibold"
                   >
                     <span>Learn More</span>
