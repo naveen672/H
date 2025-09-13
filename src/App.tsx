@@ -8,6 +8,7 @@ import About from './pages/About';
 import Colleges from './pages/Colleges';
 import SchoolDetail from './pages/SchoolDetail';
 import KyathanahalliDetail from './pages/KyathanahalliDetail';
+import AgaraMamballiDetail from './pages/AgaraMamballiDetail';
 import Contact from './pages/Contact';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path="/colleges" element={<Colleges />} />
             <Route path="/school-detail" element={<SchoolDetail />} />
             <Route path="/kyathanahalli-detail" element={<KyathanahalliDetail />} />
+            <Route path="/agara-mamballi-detail" element={<AgaraMamballiDetail />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
