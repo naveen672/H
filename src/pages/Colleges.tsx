@@ -43,6 +43,18 @@ const Colleges = () => {
       description: 'A dedicated high school providing quality secondary education with focus on holistic development and community engagement in Kagalvadi.',
       mapLink: 'https://maps.app.goo.gl/yhmUrvxxMnyUoEXy8', // You can provide the actual map link
     },
+    {
+      id: 4,
+      name: 'T S Subbanna Girls High School, Talakadu',
+      type: 'Girls High School',
+      established: '1992',
+      location: 'Talakadu, Mysuru',
+      students: '400',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      description: 'A dedicated girls high school providing quality secondary education with special focus on empowering young women through comprehensive academic programs and character development in Talakadu.',
+      mapLink: 'https://maps.app.goo.gl/D7LxgbZKQjaPTYL59',
+    },
   ];
 
   return (
@@ -122,7 +134,7 @@ const Colleges = () => {
                 
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link 
-                    to={college.id === 1 ? "/school-detail" : "/kyathanahalli-detail"}
+                    to={college.id === 1 ? "/school-detail" : college.id === 2 ? "/kyathanahalli-detail" : "/kyathanahalli-detail"}
                     className="flex-1 bg-blue-800 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2 font-semibold"
                   >
                     <span>Learn More</span>
