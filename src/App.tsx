@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Colleges from './pages/Colleges';
+import SchoolDetail from './pages/SchoolDetail';
 import Contact from './pages/Contact';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/colleges" element={<Colleges />} />
+            <Route path="/school-detail" element={<SchoolDetail />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

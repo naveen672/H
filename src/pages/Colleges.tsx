@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink, MapPin, Users, Calendar, Award } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Colleges = () => {
   const colleges = [
@@ -105,10 +106,13 @@ const Colleges = () => {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <button className="flex-1 bg-blue-800 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2 font-semibold">
+                  <Link 
+                    to="/school-detail"
+                    className="flex-1 bg-blue-800 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2 font-semibold"
+                  >
                     <span>Learn More</span>
                     <ExternalLink className="h-5 w-5" />
-                  </button>
+                  </Link>
                   
                   {college.mapLink && (
                     <a 
