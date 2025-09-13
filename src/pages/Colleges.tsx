@@ -75,7 +75,7 @@ const Colleges = () => {
       location: 'Chamundi Hill, Mysuru',
       students: '380',
       image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
-      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      images: ['/IMG-20250910-WA0110.jpg', '/IMG-20250910-WA0119.jpg'],
       description: 'A memorial high school located on the scenic Chamundi Hill, providing quality secondary education with a focus on preserving cultural heritage and academic excellence in a serene environment.',
       mapLink: 'https://maps.app.goo.gl/zQSEdJuo5EtbX1Cp6',
     },
