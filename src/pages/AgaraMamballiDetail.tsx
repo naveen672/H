@@ -20,7 +20,7 @@ const AgaraMamballiDetail = () => {
       caption: 'Students engaged in learning activities'
     },
     {
-      src: 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      src: '/IMG_20250912_202310.jpg',
       alt: 'School activities',
       caption: 'Educational programs and student activities'
     }
