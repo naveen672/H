@@ -93,14 +93,6 @@ const Colleges = () => {
                   {college.description}
                 </p>
                 
-                <div className="mb-6">
-                  <div className="flex items-center space-x-2 mb-3">
-                    <Award className="h-5 w-5 text-amber-500" />
-                    <span className="font-semibold text-gray-700">Accreditation</span>
-                  </div>
-                  <p className="text-amber-600 font-medium">{college.accreditation}</p>
-                </div>
-                
                 <div className="mb-8">
                   <h4 className="font-semibold text-gray-700 mb-3">Academic Streams</h4>
                   <div className="grid grid-cols-2 gap-2">
