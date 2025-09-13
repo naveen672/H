@@ -20,9 +20,9 @@ const SchoolDetail = () => {
       caption: 'Students celebrating achievements with awards and certificates'
     },
     {
-      src: '/image.png',
-      alt: 'Award Ceremony',
-      caption: 'Annual award ceremony recognizing student excellence'
+      src: '/image copy copy copy copy.png',
+      alt: 'School Activities and Programs',
+      caption: 'Students participating in educational and cultural activities'
     }
   ];
 
