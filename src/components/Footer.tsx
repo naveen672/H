@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, MapPin, Eye, Code } from 'lucide-react';
 
 const Footer = () => {
@@ -48,10 +49,10 @@ const Footer = () => {
           <div>
             <h4 className="text-base sm:text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm sm:text-base">
-              <li><a href="/about" className="text-gray-300 hover:text-white transition-colors block">About Trust</a></li>
-              <li><a href="/colleges" className="text-gray-300 hover:text-white transition-colors block">Our Colleges</a></li>
-              <li><a href="/contact" className="text-gray-300 hover:text-white transition-colors block">Contact Us</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors block">Admissions</a></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors block">About Trust</Link></li>
+              <li><Link to="/colleges" className="text-gray-300 hover:text-white transition-colors block">Our Colleges</Link></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-white transition-colors block">Contact Us</Link></li>
+              <li><Link to="/" className="text-gray-300 hover:text-white transition-colors block">Home</Link></li>
             </ul>
           </div>
 
