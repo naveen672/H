@@ -11,6 +11,7 @@ import KyathanahalliDetail from './pages/KyathanahalliDetail';
 import AgaraMamballiDetail from './pages/AgaraMamballiDetail';
 import KagalvadiDetail from './pages/KagalvadiDetail';
 import TalakaduDetail from './pages/TalakaduDetail';
+import ThayuruDetail from './pages/ThayuruDetail';
 import Contact from './pages/Contact';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
             <Route path="/agara-mamballi-detail" element={<AgaraMamballiDetail />} />
             <Route path="/kagalvadi-detail" element={<KagalvadiDetail />} />
             <Route path="/talakadu-detail" element={<TalakaduDetail />} />
+            <Route path="/thayuru-detail" element={<ThayuruDetail />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
