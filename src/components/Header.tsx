@@ -22,7 +22,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-4">
             {/* Portrait Logo */}
             <div className="relative">
-              <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full p-1 shadow-lg">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full p-1 shadow-lg">
                 <div className="w-full h-full bg-white rounded-full p-0.5">
                   <img 
                     src="/image.png" 
@@ -34,19 +34,19 @@ const Header = () => {
             </div>
             
             {/* Trust Name */}
-            <div className="flex flex-col">
-              <span className="text-xl font-bold text-blue-800 leading-tight">T S Subbanna</span>
-              <span className="text-sm text-gray-600 leading-tight">Sarvajanika Education Trust</span>
+            <div className="flex flex-col min-w-0">
+              <span className="text-lg sm:text-xl font-bold text-blue-800 leading-tight truncate">T S Subbanna</span>
+              <span className="text-xs sm:text-sm text-gray-600 leading-tight truncate">Sarvajanika Education Trust</span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden lg:flex space-x-4 xl:space-x-8">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
-                className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+                className={`px-2 xl:px-3 py-2 text-sm font-medium transition-colors duration-200 whitespace-nowrap ${
                   isActive(item.href)
                     ? 'text-blue-800 border-b-2 border-blue-800'
                     : 'text-gray-600 hover:text-blue-800'
@@ -58,7 +58,7 @@ const Header = () => {
           </nav>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-600 hover:text-blue-800 transition-colors duration-200"
@@ -74,7 +74,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden pb-4">
+          <div className="lg:hidden pb-4">
             <nav className="flex flex-col space-y-2">
               {navigation.map((item) => (
                 <Link

@@ -75,13 +75,13 @@ const Contact = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-800 to-blue-900 text-white py-20">
+      <section className="bg-gradient-to-br from-blue-800 to-blue-900 text-white py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
               Contact Us
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto px-4">
               Get in touch with us for admissions, general inquiries, or any questions 
               about our educational programs and services.
             </p>
@@ -90,16 +90,16 @@ const Contact = () => {
       </section>
 
       {/* Contact Form and Info */}
-      <section className="py-20">
+      <section className="py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-blue-800 mb-8">Send us a Message</h2>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-blue-800 mb-6 sm:mb-8">Send us a Message</h2>
+              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                       Full Name *
                     </label>
                     <input
@@ -109,12 +109,12 @@ const Contact = () => {
                       required
                       value={formData.name}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors text-sm sm:text-base"
                       placeholder="Your full name"
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                       Email Address *
                     </label>
                     <input
@@ -124,15 +124,15 @@ const Contact = () => {
                       required
                       value={formData.email}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors text-sm sm:text-base"
                       placeholder="your.email@example.com"
                     />
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                       Phone Number
                     </label>
                     <input
@@ -141,12 +141,12 @@ const Contact = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors text-sm sm:text-base"
                       placeholder="+91 98765 43210"
                     />
                   </div>
                   <div>
-                    <label htmlFor="college" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="college" className="block text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                       College of Interest
                     </label>
                     <select
@@ -154,7 +154,7 @@ const Contact = () => {
                       name="college"
                       value={formData.college}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors text-sm sm:text-base"
                     >
                       <option value="">Select a college</option>
                       {colleges.map((college, index) => (
@@ -165,7 +165,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                     Subject *
                   </label>
                   <input
@@ -175,30 +175,30 @@ const Contact = () => {
                     required
                     value={formData.subject}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors text-sm sm:text-base"
                     placeholder="What is this regarding?"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                     Message *
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     required
-                    rows={6}
+                    rows={4}
                     value={formData.message}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none text-sm sm:text-base"
                     placeholder="Please provide details about your inquiry..."
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-blue-800 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2"
+                  className="w-full bg-blue-800 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2 text-sm sm:text-base"
                 >
                   <Send className="h-5 w-5" />
                   <span>Send Message</span>
@@ -208,38 +208,38 @@ const Contact = () => {
 
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-blue-800 mb-8">Get in Touch</h2>
-              <p className="text-gray-600 mb-8">
+              <h2 className="text-2xl sm:text-3xl font-bold text-blue-800 mb-6 sm:mb-8">Get in Touch</h2>
+              <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
                 We're here to help you with any questions about our programs, admissions, 
                 or general inquiries. Choose the most convenient way to reach us.
               </p>
 
-              <div className="space-y-6">
+              <div className="space-y-4 sm:space-y-6">
                 {offices.map((office, index) => (
-                  <div key={index} className="bg-gray-50 p-6 rounded-xl">
-                    <h3 className="text-xl font-semibold text-blue-800 mb-4">{office.title}</h3>
+                  <div key={index} className="bg-gray-50 p-4 sm:p-6 rounded-xl">
+                    <h3 className="text-lg sm:text-xl font-semibold text-blue-800 mb-3 sm:mb-4">{office.title}</h3>
                     <div className="space-y-3">
                       <div className="flex items-start space-x-3">
                         <MapPin className="h-5 w-5 text-amber-500 flex-shrink-0 mt-0.5" />
-                        <div className="text-gray-600 text-sm whitespace-pre-line">
+                        <div className="text-gray-600 text-xs sm:text-sm whitespace-pre-line">
                           {office.address}
                         </div>
                       </div>
                       <div className="flex items-center space-x-3">
                         <Phone className="h-5 w-5 text-amber-500 flex-shrink-0" />
-                        <a href={`tel:${office.phone}`} className="text-gray-600 text-sm hover:text-blue-800">
+                        <a href={`tel:${office.phone}`} className="text-gray-600 text-xs sm:text-sm hover:text-blue-800">
                           {office.phone}
                         </a>
                       </div>
                       <div className="flex items-center space-x-3">
                         <Mail className="h-5 w-5 text-amber-500 flex-shrink-0" />
-                        <a href={`mailto:${office.email}`} className="text-gray-600 text-sm hover:text-blue-800">
+                        <a href={`mailto:${office.email}`} className="text-gray-600 text-xs sm:text-sm hover:text-blue-800 break-all">
                           {office.email}
                         </a>
                       </div>
                       <div className="flex items-start space-x-3">
                         <Clock className="h-5 w-5 text-amber-500 flex-shrink-0 mt-0.5" />
-                        <div className="text-gray-600 text-sm whitespace-pre-line">
+                        <div className="text-gray-600 text-xs sm:text-sm whitespace-pre-line">
                           {office.hours}
                         </div>
                       </div>
@@ -253,19 +253,19 @@ const Contact = () => {
       </section>
 
       {/* Map Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-blue-800 mb-4">Visit Our Campus</h2>
-            <p className="text-xl text-gray-600">
+          <div className="text-center mb-6 sm:mb-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-blue-800 mb-4">Visit Our Campus</h2>
+            <p className="text-lg sm:text-xl text-gray-600">
               Located in the heart of Bangalore with easy access to public transportation
             </p>
           </div>
-          <div className="bg-gray-300 h-96 rounded-xl flex items-center justify-center">
+          <div className="bg-gray-300 h-64 sm:h-80 lg:h-96 rounded-xl flex items-center justify-center">
             <div className="text-center text-gray-600">
-              <MapPin className="h-12 w-12 mx-auto mb-4" />
-              <p className="text-lg">Interactive Map</p>
-              <p className="text-sm">Campus location and directions</p>
+              <MapPin className="h-8 w-8 sm:h-12 sm:w-12 mx-auto mb-3 sm:mb-4" />
+              <p className="text-base sm:text-lg">Interactive Map</p>
+              <p className="text-xs sm:text-sm">Campus location and directions</p>
             </div>
           </div>
         </div>
