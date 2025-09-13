@@ -15,7 +15,7 @@ const KagalvadiDetail = () => {
       caption: 'Main school building and entrance'
     },
     {
-      src: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      src: '/IMG-20250910-WA0136.jpg',
       alt: 'Students in classroom',
       caption: 'Students engaged in learning activities'
     },
