@@ -2,8 +2,11 @@ import React from 'react';
 import { Phone, MapPin, Eye, Code } from 'lucide-react';
 
 const Footer = () => {
-  // Simple visitor count starting from 0 (in a real app, this would come from analytics or a database)
-  const visitorCount = 0;
+  // Calculate visitor count: increment by 10 each day since launch
+  const launchDate = new Date('2025-01-15'); // Set your launch date here
+  const currentDate = new Date();
+  const daysSinceLaunch = Math.floor((currentDate.getTime() - launchDate.getTime()) / (1000 * 60 * 60 * 24));
+  const visitorCount = Math.max(0, daysSinceLaunch * 10);
 
   return (
     <footer className="bg-gray-900 text-white">
