@@ -249,8 +249,8 @@ const Home = () => {
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-emerald-50 p-8 rounded-2xl">
               <img 
-                src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-                alt="Students in modern classroom"
+                src="/image.png"
+                alt="T S Subbanna - Founder"
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
               />
             </div>
