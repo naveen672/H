@@ -79,6 +79,54 @@ const Colleges = () => {
       description: 'A memorial high school located on the scenic Chamundi Hill, providing quality secondary education with a focus on preserving cultural heritage and academic excellence in a serene environment.',
       mapLink: 'https://maps.app.goo.gl/zQSEdJuo5EtbX1Cp6',
     },
+    {
+      id: 7,
+      name: 'T S Subbana Smaraka High School, Agara Mamballi',
+      type: 'High School',
+      established: '2000',
+      location: 'Agara Mamballi, Mysuru',
+      students: '320',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      description: 'A memorial high school serving the Agara Mamballi community, providing quality secondary education with emphasis on rural development and academic excellence.',
+      mapLink: '#', // You can provide the actual map link
+    },
+    {
+      id: 8,
+      name: 'T S Subbana Smaraka High School, Hura',
+      type: 'High School',
+      established: '2002',
+      location: 'Hura, Mysuru',
+      students: '280',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      description: 'A memorial high school in Hura, dedicated to providing comprehensive secondary education and fostering community development through quality academic programs.',
+      mapLink: '#', // You can provide the actual map link
+    },
+    {
+      id: 9,
+      name: 'T S Subbana Smaraka High School, Purigali',
+      type: 'High School',
+      established: '2005',
+      location: 'Purigali, Mysuru',
+      students: '350',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      description: 'A memorial high school in Purigali, committed to delivering quality secondary education with focus on holistic development and community engagement.',
+      mapLink: '#', // You can provide the actual map link
+    },
+    {
+      id: 10,
+      name: 'T S Subbana Smaraka High School, Vaddagere',
+      type: 'High School',
+      established: '2008',
+      location: 'Vaddagere, Mysuru',
+      students: '300',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      images: ['https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop', 'https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop'],
+      description: 'A memorial high school in Vaddagere, providing quality secondary education with emphasis on academic excellence and character development in a supportive learning environment.',
+      mapLink: '#', // You can provide the actual map link
+    },
   ];
 
   return (
