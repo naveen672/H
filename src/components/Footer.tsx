@@ -79,7 +79,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <Code className="h-4 w-4 text-amber-500" />
               <span className="text-gray-400 text-sm">
-                Site built and maintained by <span className="text-amber-400 font-medium">Naveen R</span>
+                Site built and maintained by <a href="https://portfolio-naveenr.onrender.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 font-medium hover:text-amber-300 transition-colors">Naveen R</a>
               </span>
             </div>
           </div>
