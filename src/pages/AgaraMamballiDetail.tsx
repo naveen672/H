@@ -15,7 +15,7 @@ const AgaraMamballiDetail = () => {
       caption: 'Main school building and entrance'
     },
     {
-      src: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      src: '/_storage_emulated_0_DCIM_Screenshots_IMG_20250912_202239',
       alt: 'Students in classroom',
       caption: 'Students engaged in learning activities'
     },
