@@ -18,6 +18,19 @@ const Colleges = () => {
       accreditation: 'State Board Affiliated, CBSE Recognition',
       mapLink: 'https://maps.app.goo.gl/mjAx1sLth6j79ySB9',
     },
+    {
+      id: 2,
+      name: 'T S Subbanna High School, Kyathanahalli',
+      type: 'High School',
+      established: '1985',
+      location: 'Kyathanahalli, Mysuru',
+      students: '650',
+      image: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=600&h=300&fit=crop',
+      images: ['/IMG-20250910-WA0057.jpg', '/IMG-20250910-WA0058.jpg'],
+      description: 'A distinguished high school providing comprehensive secondary education with emphasis on academic excellence and character development in Kyathanahalli.',
+      specialties: ['Secondary Education', 'Science Stream', 'Commerce Stream', 'Arts Stream'],
+      mapLink: '#',
+    },
   ];
 
   return (
@@ -40,8 +53,9 @@ const Colleges = () => {
       {/* Colleges Grid */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {colleges.map((college) => (
-            <div key={college.id} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+          <div className="space-y-12">
+            {colleges.map((college) => (
+              <div key={college.id} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
               {/* Image Gallery */}
               <div className="relative">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
@@ -128,7 +142,8 @@ const Colleges = () => {
                 </div>
               </div>
             </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 
